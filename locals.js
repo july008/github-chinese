@@ -6578,11 +6578,11 @@ I18N["zh-CN"]["settings/apps/authorizations"] = { // 授权放问
         //[/Found (\d+) events?/, "发现 $1 个活动"],
         //[/View ([^ ]+)'s profile/, "查看 $1 的资料"],
     ],
-    "title": {
-        "static": {
-            "Security log": "安全日志",
-        },
-    },
+    //"title": {
+        //"static": {
+            //"Security log": "安全日志",
+        //},
+    //},
 };
 
 
@@ -6862,6 +6862,13 @@ I18N["zh-CN"]["settings/security-log"] = { // 设置 - 安全日志
         // Security log 安全日志 https://github.com/settings/security-log
             "Loading audit log entries…": "正在加载日志条目…",
             "Filters": "筛选",
+                "Available filters": "可用筛选器",
+                "action: filter by action": "动作：按动作筛选",
+                "country: filter by country": "国家：按国家筛选",
+                "created: filter by created date": "创建时间：按创建时间筛选",
+                "operation: filter by operation": "操作：按操作筛选",
+                "org: filter by organization": "原始：按原始筛选",
+                "repo: filter by repository": "仓库：按仓库筛选",
                 "Filter audit logs": "筛选审计日志",
                 "Yesterday's activity": "昨天的活动",
                 "Repository management": "仓库管理",
@@ -6869,6 +6876,13 @@ I18N["zh-CN"]["settings/security-log"] = { // 设置 - 安全日志
                 "Copilot activity": "Copilot 活动",
                 "Personal access token activity": "个人访问令牌活动",
                 "View advanced search syntax": "查看高级搜索语法",
+            "Created authorization for OAuth application (Copilot Chat App) with scope(s)": "已为 OAuth 应用程序（Copilot Chat 应用）创建授权并指定权限范围",
+            "Added deployment branch pattern with value ": "已添加部署分支模式及其值",
+            "for": "给",
+            "Created a deployment branch protection rule for": "创建部署分支保护规则给",
+            "The environment can only deploy in branches matching a branch policy pattern.": "环境只能部署在与分支策略模式匹配的分支中。",
+            "Changed GitHub Pages visibility to public": "已将 GitHub Pages 可见性更改为公开",
+            "Budget was created with a limit of 0 (PreventFurtherUsage). Budget alerts are enabled": "预算已创建，限额为 0（防止进一步使用）。预算提醒已启用",
             "Filter by Member": "按用户筛选",
             "Filter by Action": "按事件筛选",
             "Search audit logs": "搜索审计日志",
