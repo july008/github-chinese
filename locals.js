@@ -5672,6 +5672,9 @@ I18N["zh-CN"]["settings/organizations"] = { // 设置 - 组织
             "Compare plans": "比较计划",
             "Leave": "离开",
             "Leave organization":"离开组织",
+            "Move to an organization":"移动到组织",
+            "Move work to an organization":"将工作转移到一个组织",
+            "Your personal account cannot be converted to an organization. You must create a new organization and transfer your repositories and projects to it instead. You can then rename your personal account and the organization if you want your organization to have the same name that you are currently using for your personal account.":"您的个人账户无法转换为组织。您必须创建一个新的组织，并将您的仓库和项目转移到该组织中。之后，如果您希望组织使用与当前个人账户相同的名称，可以重命名您的个人账户和组织。",
 
             "Transform account": "账户变更",
             "You cannot transform this account into an organization until you leave all organizations that you’re a member of.": "在您离开您所属的所有组织之前，您无法将此账户转换为组织。", // 存在所属组织时
@@ -6558,6 +6561,30 @@ I18N["zh-CN"]["settings/security_analysis"] = { // 设置 - 代码安全性与�
         },
     },
 };
+
+I18N["zh-CN"]["settings/apps/authorizations"] = { // 授权放问
+    "static": { // 静态翻译
+        ...I18N["zh-CN"]["settings-menu"]["static"],
+        ...I18N["zh-CN"]["orgs-settings-menu"]["static"],
+
+        // Security log 安全日志 https://github.com/settings/apps/authorizations
+            "Password": "密码",
+                "Forgot password?": "忘记密码?",
+                "Tip: You are entering sudo mode. After you've performed a sudo-protected action, you'll only be asked to re-authenticate again after a few hours of inactivity.": "提示：您正在进入sudo模式。在执行了受sudo保护的操作后，只有在几小时不活动后，系统才会要求您再次进行身份验证。",
+
+
+    },
+    "regexp": [ // 正则翻译
+        //[/Found (\d+) events?/, "发现 $1 个活动"],
+        //[/View ([^ ]+)'s profile/, "查看 $1 的资料"],
+    ],
+    "title": {
+        "static": {
+            "Security log": "安全日志",
+        },
+    },
+};
+
 
 I18N["zh-CN"]["settings/installations"] = { // 设置 - 应用/安装的 GitHub 应用
     "static": { // 静态翻译
