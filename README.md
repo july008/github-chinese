@@ -72,6 +72,7 @@ Via（Android）       | 内置管理器
 1. 选择安装源：
     - [GitHub 源【开发版】][main.user.js]
     - [GreasyFork 源【稳定版】][main(greasyfork).user.js]
+    - [GitHub 源【我这个开发版】][ https://raw.githubusercontent.com/july008/github-chinese/gh-pages/main.user.js]
 1. 刷新页面后，插件即可生效
 1. 必要时，重启浏览器
 
@@ -115,6 +116,11 @@ Via（Android）       | 内置管理器
 ## 🔄 更新日志
 
 ### 最新版本
+#### v1.9.3 Beta (2026-3-22)
+
+1. 为locals.js添加更多的简体中文翻译，暂时删除繁体中文
+1. main.user.js中locals.js的地址修改为
+// @require      https://raw.githubusercontent.com/july008/github-chinese/gh-pages/locals.js?v1.9.3-2026-3-22
 
 #### v1.9.3 (2024-08-18)
 
