@@ -4895,9 +4895,9 @@ I18N["zh-CN"]["settings/billing"] = { // 设置 - 账单和计划
         //    const translatedP2 = I18N["zh-CN"]["public"]["time-regexp"][p2] || p2;
         //    return `${translatedP1}-${translatedP2}`;
         //}],
-        [/([\d,]+) min used \/ ([\d,]+) min included/, "$1 / $2 分钟"],
+        [/([\d,]+) min used \/ ([\d,]+) min included/, "总共$2 分钟 / 已用$1 分钟"],
         //(\d+) min used \/ ([\d,+]) min included
-        [/(\d+) GB used \/ (\d+) GB included/, "$1/$2 GB"],
+        [/([\d\.]+) GB used \/ ([\d\.]+) GB included/, "总共$2 GB / 已用$1 GB"],
         // 当前包含用量 - 详情 对话框
             [/Current usage for (.+) - (.+). Monthly quota resets in (\d+) day\(s\)./, (match, p1, p2, p3) => {
                 const dateRegExp = I18N["zh-CN"]["public"]["time-regexp"];
