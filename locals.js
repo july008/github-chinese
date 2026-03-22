@@ -883,7 +883,7 @@ I18N["zh-CN"]["public"] = { // 公共区域翻译
         // 状态设置对话框
         // 出现位置: 个人资料页, Gist 个人主页, 仓库页右上角个人图标下拉菜单
             "Edit status": "编辑状态",
-            "What's happening?": "发生了什么？",
+            "What's happening": "发生了什么",
 
             "Suggestions": "建议",
                 "On vacation": "在度假",
@@ -895,20 +895,22 @@ I18N["zh-CN"]["public"] = { // 公共区域翻译
                 "When others mention you, assign you, or request your review, GitHub will let them know that you have limited availability.": "当其他人提及您、指派您或请求您进行评论时，GitHub 会告知他们您很忙。",
                 "I may be slow to respond.": "我的回复可能比较慢。",
 
-            "Clear status": "清除状态",
+            "Expiration": "过期",
                 "Never": "永不",
                 "in 30 minutes": "30 分钟",
                 "in 1 hour": "1 小时",
                 "in 4 hours": "4 小时",
-                "after today": "今日之后",
-                "after this week": "本周之后",
-                "after a month": "本月之后",
+                "After today": "今日之后",
+                "After this week": "本周之后",
+                "After a month": "本月之后",
+                "Your status will be cleared after the selected time.":"您的状态将在选定时间后被清除。",
                 "How long until this status will automatically clear.": "多久后状态自动清除。",
             "Visible to": "可见",
                 "Everyone": "任何人",
                     "Scope status visibility to a single organization.": "将状态可视范围扩大到单个组织。",
             "Filter emoji": "筛选表情符号",
                 "Search results": "筛选结果",
+                "Limit status visibility to a single organization.":"将状态可见性限制在单个组织内。",
 
         // 底部条
             "Terms": "服务条款",
@@ -2379,6 +2381,7 @@ I18N["zh-CN"]["page-dashboard"] = { // 已登录的首页 - 仪表板（含组�
         [/(\d+) commits? to/, "$1 个提交到"],
         [/(\d+) more commits? »/, "$1 个更多提交到"],
         [/(\d+) issues? needs? help/, "$1 个议题需要帮助"],
+        [/(\d+) characters remaining?/, "$1 个剩余字符数"],
         [/Join discussion/, "加入讨论"],
         // [/Updated/, "更新于"],
         // 创建于
@@ -4192,6 +4195,10 @@ I18N["zh-CN"]["settings/notifications"] = { // 设置 - 通知
             "\'Deploy key\' alert email": "“部署密钥” 警报电子邮件",
                 "When you are given admin permissions to an organization, automatically receive notifications when a new deploy key is added.": "当您获得组织的管理员权限时，会在添加新部署密钥时自动接收通知。",
 
+                "Notifications for agent sessions that you started.": "您发起的代理会话的通知。",
+            
+            
+            
             "In-product messages": "产品消息",
                 "Get tips, solutions and exclusive offers from GitHub about products, services and events we think you might find interesting.": "从 GitHub 获取有关我们认为您可能感兴趣的产品、服务和活动的提示、解决方案和独家优惠。",
 
