@@ -4472,7 +4472,8 @@ I18N["zh-CN"]["settings/billing"] = { // 设置 - 账单和计划
         // 预算和警报 https://github.com/settings/billing/budgets
            "Account budgets": "账户预算",
                 "New budget": "新建",
-                "Included usage alerts: ": "包括使用警报：",
+                "Included usage alerts: Off": "包括使用警报：关",
+                "Included usage alerts: On": "包括使用警报：开",
                 "Turn on included usage email alerts": "开启包括的使用情况电子邮件提醒",
                 "Turn off included usage email alerts": "关闭包括的使用情况电子邮件提醒",
                 "This includes Actions, Git LFS, Packages, and Codespaces": "这包括 Actions、Git LFS、Packages 和 Codespaces",
@@ -4916,6 +4917,7 @@ I18N["zh-CN"]["settings/billing"] = { // 设置 - 账单和计划
         [/([\d,\.]+) min used \/ ([\d,\.]+) min included/, "总共$2 分钟 / 已用$1 分钟"],
         //(\d+) min used \/ ([\d,+]) min included
         [/([\d,\.]+) GB used \/ ([\d\,.]+) GB included/, "总共$2 GB / 已用$1 GB"],
+        [/Based on ([\d,\.]+) additional premium requests beyond your included usage./, "基于超出您包含用量的$1个额外高级请求。"],
         // 当前包含用量 - 详情 对话框
             [/Current usage for (.+) - (.+). Monthly quota resets in (\d+) day\(s\)./, (match, p1, p2, p3) => {
                 const dateRegExp = I18N["zh-CN"]["public"]["time-regexp"];
