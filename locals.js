@@ -3458,7 +3458,9 @@ I18N["zh-CN"]["payment-module"] = { // 通用账单及支付信息模块
                     "City can't be blank.": "城市不能为空。",
                     "City can't be blank": "城市不能为空",
                 "Country/Region": "国家/地区",
+                    "Choose your country/region": "选择您的国家区域",
                 "State/Province": "州/省",
+                    "Select state": "选择州",
                     "Required for certain countries": "某些国家/地区需要",
                 "Postal/Zip code": "邮政编码",
                     "(9-digit zip code for US)": "（美国为 9 位邮政编码）",
@@ -4312,6 +4314,8 @@ I18N["zh-CN"]["settings/billing"] = { // 设置 - 账单和计划
                     "Billed:": "计费：",
                     "Discount:": "优惠：",
                 "Usage by repository": "按仓库统计",
+                    "Top repository this month": "本月热门仓库",
+                    "Open repository usage options": "打开仓库使用选项",
                     "Top three repositories today": "今日排名前三的仓库",
                     "Top two repositories this month": "本月排名前二的仓库",
                     "Top three repositories this month": "本月排名前三的仓库",
@@ -4468,6 +4472,14 @@ I18N["zh-CN"]["settings/billing"] = { // 设置 - 账单和计划
         // 预算和警报 https://github.com/settings/billing/budgets
            "Account budgets": "账户预算",
                 "New budget": "新建",
+                "Included usage alerts: ": "包括使用警报：",
+                "Turn on included usage email alerts": "开启包括的使用情况电子邮件提醒",
+                "Turn off included usage email alerts": "关闭包括的使用情况电子邮件提醒",
+                "This includes Actions, Git LFS, Packages, and Codespaces": "这包括 Actions、Git LFS、Packages 和 Codespaces",
+                "Email alerts will no longer be sent when included usage reaches 90% and 100%.": "当包含的使用量达到 90% 和 100% 时，将不再发送电子邮件提醒。",
+                "Email alerts will be sent when included usage reaches 90% and 100%.": "当包含的使用量达到 90% 和 100% 时，将发送电子邮件提醒。",
+                "Dismiss banner": "关闭横幅",
+                
                 // "On": "开",
                 // "Off": "关",
                 "Stop usage": "停止使用",
@@ -4552,8 +4564,14 @@ I18N["zh-CN"]["settings/billing"] = { // 设置 - 账单和计划
 
         // 许可 https://github.com/settings/billing/licensing
             // Github Copllot
+            "GitHub Copilot": "GitHub 助理",
                 "Your AI pair programmer": "您的 AI 编程助理",
+                    "Start using Copilot Free": "开始使用 Copilot 免费版",
                     "You are eligible to use GitHub Copilot for free.": "您有资格免费使用 GitHub Copilot。",
+                    "GitHub Copilot suggests code and entire functions in real-time, right from your editor.": "GitHub Copilot 可以实时在你的编辑器中建议代码和整个函数。",
+                    "Access to leading models from providers like Anthropic and OpenAI": "访问来自 Anthropic 和 OpenAI 等提供商的领先模型",
+                    "Multi-file changes with Copilot Edits": "使用 Copilot 编辑的多文件更改",
+                    "Works with VS Code, JetBrains IDEs, Neovim, Xcode, and more": "兼容 VS Code、JetBrains IDE、Neovim、Xcode 等更多工具",
 
             "Current plan": "当前计划",
                 "Compare all plans": "比较所有计划",
@@ -4895,9 +4913,9 @@ I18N["zh-CN"]["settings/billing"] = { // 设置 - 账单和计划
         //    const translatedP2 = I18N["zh-CN"]["public"]["time-regexp"][p2] || p2;
         //    return `${translatedP1}-${translatedP2}`;
         //}],
-        [/([\d,]+) min used \/ ([\d,]+) min included/, "总共$2 分钟 / 已用$1 分钟"],
+        [/([\d,\.]+) min used \/ ([\d,\.]+) min included/, "总共$2 分钟 / 已用$1 分钟"],
         //(\d+) min used \/ ([\d,+]) min included
-        [/([\d\.]+) GB used \/ ([\d\.]+) GB included/, "总共$2 GB / 已用$1 GB"],
+        [/([\d,\.]+) GB used \/ ([\d\,.]+) GB included/, "总共$2 GB / 已用$1 GB"],
         // 当前包含用量 - 详情 对话框
             [/Current usage for (.+) - (.+). Monthly quota resets in (\d+) day\(s\)./, (match, p1, p2, p3) => {
                 const dateRegExp = I18N["zh-CN"]["public"]["time-regexp"];
@@ -5083,6 +5101,7 @@ I18N["zh-CN"]["settings/education/benefits"] = {  // 设置 - 账单和计划（
 
         "Education Benefits": "教育福利",
             "Complete a teacher or student application to unlock tools and resources for your educational journey.": "完成教师或学生申请，解锁教育旅程所需的工具和资源。",
+            "Get Copilot for free, 180 monthly Codespaces hours for cloud coding, unlimited private repositories with GitHub Pro or Team, and dozens of premium tools in the Student Developer Pack.":"免费获取 Copilot，每月 180 小时云端编码的 Codespaces，使用 GitHub Pro 或 Team 可以拥有无限私有仓库，以及学生开发者包中的数十种高级工具。",
             //"You have a current student coupon applied.": "您当前已应用学生优惠券。",
             "You have a current student coupon applied. Find more information on your benefits": "您当前已应用学生优惠券。详情查看",
                 "here": "这里",
