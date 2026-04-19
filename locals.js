@@ -1149,6 +1149,7 @@ I18N["zh-CN"]["public"] = { // 公共区域翻译
             "Notifications": "通知",
             // "Discussions": "讨论",
             "Actions": "操作",
+            "Security and quality": "安全与质量",
             "Insights": "洞察",
             "Organizations": "组织",
             "Repositories": "仓库",
